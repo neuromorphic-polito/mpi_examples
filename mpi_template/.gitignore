@@ -1,0 +1,15 @@
+# Language
+*.[oa]
+*~
+
+# IDE
+cmake-build-debug/
+spinnnaker-software-stack/
+.idea/
+.vscode/
+
+# Application
+*.aplx
+*.aplx.patched
+*.bkp
+*.pyc
