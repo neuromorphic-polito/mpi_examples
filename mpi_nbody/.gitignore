@@ -1,0 +1,14 @@
+# Language
+*.[oa]
+*~
+
+# IDE
+#cmake-*
+.idea
+
+# Application
+*.aplx
+*.aplx.patched
+*.bkp
+*.pyc
+

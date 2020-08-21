@@ -1,0 +1,4 @@
+reset
+sleep 5
+boot scamp3_32sdp.boot spin5.conf
+sleep 5

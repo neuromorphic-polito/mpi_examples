@@ -1,0 +1,14 @@
+# RUN SDP-MC Test
+reset
+sleep 5
+boot scamp3_32sdp.boot spin5.conf
+sleep 5
+app_load project_oganesson.aplx all 1-16 16 wait
+sleep 1
+app_sig all 16 start
+sleep 1
+app_sig all 16 sync0
+sleep 1
+sp 0 0
+ps d
+#app_stop 16
